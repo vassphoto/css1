@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 1 témakör feladatok</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        p,
+        h1 {
+            color: blue;
+        }
+
+        #paragraph1 {
+            color: green;
+        }
+
+        .redcolor {
+            color: red;
+        }
+
+        div {
+            color: yellow;
+        }
+
+        .master:hover {
+            background-color: red;
+        }
+
+        p:first-child {
+            color: red;
+        }
+
+        input:focus {
+            background-color: red;
+        }
+
+        div p{
+            color: red;
+        }
+
+        div > p{
+            color: rgb(157, 0, 255);
+        }
+
+        div + p{
+            color: yellowgreen;
+        }
+
+        div ~ p{
+            color: rgb(50, 205, 130);
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    <div style="background-color: red; height: 300px; width: 300px;"></div>
+
+    <br>
+
+    <div class="master"></div>
+
+    <h1>This is a heading</h1>
+
+    <p id="paragraph1">This is a paragraph</p>
+
+    <p class="red">This is a paragraph</p>
+
+    <h1 class="master">This is a header.</h1>
+
+    <p class="master">This is a paragraph.</p>
+
+    <p>This is a paragraph.</p>
+
+    <form>
+        Name:
+        <input type="text" name="fname">
+        Age:
+        <input type="text" name="age">
+    </form>
+
+    <div>
+        <p>This is a paragraph.</p>
+        <p>This is a paragraph.</p>
+    </div>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+
+</body>
+
+</html>
